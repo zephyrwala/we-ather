@@ -78,11 +78,11 @@ public enum ApiError: Error {
 
 
 extension Sys {
-    var sunriseTime: Date {
+    public var sunriseTime: Date {
         return Date(timeIntervalSince1970: self.sunrise)
     }
     
-    var sunsetTime: Date {
+    public var sunsetTime: Date {
         return Date(timeIntervalSince1970: self.sunset)
     }
 }
