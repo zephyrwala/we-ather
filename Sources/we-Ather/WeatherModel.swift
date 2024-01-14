@@ -12,36 +12,36 @@ import Foundation
 //Codable Struct to represent JSON payload
 // MARK: - Weathered
 public struct Weathered: Codable {
-    let coord: Coord
-    let weather: [Weather]
-    let base: String
-    let main: Main
-    let visibility: Int
-    let wind: Wind
-    let clouds: Clouds
-    let dt: Int
-    let sys: Sys
-    let timezone, id: Int
-    let name: String
-    let cod: Int
+    public let coord: Coord
+    public let weather: [Weather]
+    public let base: String
+    public let main: Main
+    public let visibility: Int
+    public let wind: Wind
+    public let clouds: Clouds
+    public let dt: Int
+    public let sys: Sys
+    public let timezone, id: Int
+    public let name: String
+    public let cod: Int
 }
 
 // MARK: - Clouds
 public struct Clouds: Codable {
-    let all: Int
+    public let all: Int
 }
 
 // MARK: - Coord
 public struct Coord: Codable {
-    let lon, lat: Double
+    public let lon, lat: Double
 }
 
 // MARK: - Main
 public struct Main: Codable {
-    let temp, feelsLike, tempMin, tempMax: Double
-    let pressure, humidity: Int
+    public let temp, feelsLike, tempMin, tempMax: Double
+    public let pressure, humidity: Int
 
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         case temp
         case feelsLike = "feels_like"
         case tempMin = "temp_min"
@@ -52,21 +52,21 @@ public struct Main: Codable {
 
 // MARK: - Sys
 public struct Sys: Codable {
-    let type, id: Int
-    let country: String
-    let sunrise, sunset: Double
+    public let type, id: Int
+    public let country: String
+    public let sunrise, sunset: Double
 }
 
 // MARK: - Weather
 public struct Weather: Codable {
-    let id: Int
-    let main, description, icon: String
+    public let id: Int
+    public let main, description, icon: String
 }
 
 // MARK: - Wind
 public struct Wind: Codable {
-    let speed: Double
-    let deg: Int
+    public let speed: Double
+    public let deg: Int
 }
 
 
