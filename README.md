@@ -8,6 +8,8 @@
 `WeatherManager` is a Swift utility class that provides functionality to fetch weather data from the OpenWeatherMap API. This class leverages the CoreLocation framework to obtain weather information based on geographical coordinates (latitude and longitude). The retrieved weather data is then decoded into a specified Codable type.
 
 ## Usage
+## Installation
+To install this package, import 'https://github.com/zephyrwala/we-ather.git' in Swift Package Manager
 
 ### Initialization
 
