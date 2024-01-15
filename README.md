@@ -1,7 +1,7 @@
 
 # We-Ather
 
-![](Screenshots/img1.png)
+<img src="https://github.com/zephyrwala/we-ather/blob/main/Screenshots/img1.png" width="45%">
 # WeatherManager.swift
 
 ## Overview
