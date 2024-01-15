@@ -1,6 +1,7 @@
 
 # We-Ather
 
+![](Screenshots/img1.png)
 # WeatherManager.swift
 
 ## Overview
